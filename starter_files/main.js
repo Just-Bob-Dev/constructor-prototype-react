@@ -1,4 +1,7 @@
+'use strict';
+
 //###################################################################
+
 //        __
 //   ____/ /___  ____ ______
 //  / __  / __ \/ __ `/ ___/
@@ -11,7 +14,7 @@ function Dog (name, color, hungry) {
   this.name = name;
   this.color = color;
   this.hungry = hungry;
-  this.satus = 'normal';
+  this.status = 'normal';
 
 }
 
